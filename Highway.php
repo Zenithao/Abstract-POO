@@ -8,8 +8,8 @@ abstract class Highway
 
     public function __construct(int $nbLane, int $maxSpeed)
     {
-        $this->nbLane = $nbLane;
-        $this->maxSpeed = $maxSpeed;
+        $this->setNbLane($nbLane);
+        $this->setMaxSpeed($maxSpeed);
     }
 
     abstract public function addVehicule(Vehicle $vehicle);

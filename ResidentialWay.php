@@ -4,8 +4,8 @@ final class ResidentialWay extends Highway
 {
     public function __construct()
     {
-        $this->nbLane = 2;
-        $this->maxSpeed = 50;
+        $this->setNbLane(2);
+        $this->setMaxSpeed(50);
         echo "ResidentialWay";
     }
 
